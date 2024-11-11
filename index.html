@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map box</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- font awasome cdn link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
+    
+  </head>
+  <body>
+    <header><h1>🌍Map Box Application🌎</h1></header>
+  
+    <section class="VALUES">
+      <div class="boxses">
+        <label for="location">Location:</label>
+        <input id="location" class="box1" placeholder="Enter the Location" />
+        <!-- <label for="landmark">Landmark:</label> -->
+        <!-- <input id="landmark" class="box2" placeholder="Enter the Landmark" /> -->
+        <button class="btn" onclick="fetchdata()">
+          <i class="fas fa-search"></i>search
+        </button>
+      </div>
+    </section>
+    
+    <!-- <div class="container"> -->
+      <!-- <div class="image"></div> -->
+       <div id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30183.938157524473!2d81.4186496!3d18.9759488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1728276285922!5m2!1sen!2si    <iframe src="https://maps.app.goo.gl/qWV6c6gPtctiabX86" frameborder="0" frameborder="0" 
+    style="border:0;" 
+    allowfullscreen 
+    aria-hidden="false" 
+    tabindex="0"> 
+  </iframe>
+       </div>
+      <div id="displayBox"></div>
+    </div>
+
+    <div id="showingmap"></div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
+
